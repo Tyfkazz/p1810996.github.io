@@ -1,0 +1,311 @@
+
+body, html
+{
+	margin : 0px;
+	padding: 0px;
+	color:black;
+	background-color:black;
+	background: url(images/fond.jpg) repeat;
+	font-family: "Big Shoulders Stencil Text";
+}
+
+header
+{
+	height: 450px;
+	width: 100%;
+	background: black;
+	position: relative;
+}
+
+.imageHeader
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0; left : 0;
+	background: url(images/header.webp) center no-repeat;
+	background-size: cover;
+	z-index: 1;
+	opacity: 0.8;
+}
+.container
+{
+	width: 90%;
+	margin: auto;
+	position: relative;
+	z-index : 99;
+}
+.arrondi
+{
+	position: absolute;
+	bottom : 0;
+	background: 0 0;
+	height: 42px;
+	width: 100%;
+	z-index: 10;
+}
+.logo h1
+{
+	color : white;
+	font-size: 28px;
+}
+
+
+.slogan
+{
+	text-align: center;
+}
+
+.sloganHeader
+{
+	color:white;
+	font-size: 35px;
+}
+
+
+nav
+{
+	width : 100%;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.menu
+{
+	display: flex;
+}
+
+a,form
+{
+	margin-left: 40px;
+	color: white;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	border-bottom : 2px solid transparent;
+}
+
+input
+{
+	background-color: black;
+	color: white;
+}
+
+a:hover {
+	padding-bottom: 3px;
+	border-bottom : 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main
+{
+	width: 95%;
+	margin :auto;
+	display:flex;
+	flex-direction: column;
+
+}
+
+
+section
+{
+	border: 1px solid green;
+	margin-bottom: 2em;
+	background-color: black;
+	border-radius: 10px;
+	box-shadow: 5px 5px green;
+	opacity: 0.9;
+}
+
+img
+{
+	width: 90%;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.sectionVente
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+section h2
+{
+	color : white;
+	text-align: center;
+	font-size: 50px;
+}
+
+section h3
+{
+	color : white;
+	text-align: center;
+	font-size: 30px;
+}
+
+.promo
+{
+	text-decoration: line-through;
+	margin-right: 10px;
+}
+p
+{
+	color : white;
+	font-size: 20px;
+}
+
+
+.rubber
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.mainPanier
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.sectionPanier1
+{
+	width: 70%;
+}
+
+.sectionPanier2
+{
+	width: 20%;
+}
+
+.sectionInfos
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ .sectionInfos p
+ {
+ 	text-align: center;
+ }
+
+
+
+
+
+
+
+.lienFooter
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.lienFooter a
+{
+	border : 3px solid white;
+	background-color: black;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 660px)
+{
+	.menu
+	{
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+		padding-top: 20px;
+
+	}
+	.sloganHeader
+	{
+		font-size: 25px;
+		padding-top: 30px;
+	}
+
+
+
+
+
+
+
+	.sectionVente
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.mainPanier
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.sectionPanier1
+	{
+		width: 100%;
+	}
+
+	.sectionPanier2
+	{
+		width: 100%;
+	}
+
+	.rubber
+	{
+		margin: auto;
+		border-bottom: 2px solid white;
+	}
+
+
+	section h2
+	{
+		font-size: 40px;
+	}
+
+	p
+	{
+		margin-left: 10px;
+	}
+
+
+
+
+	.lienFooter
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.lienFooter a
+	{
+		margin : 10px;
+	}
+}
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;300;700&display=swap" rel="stylesheet"> 
+        <title>Hack'n'Shop - Le hacking pour tous</title>
+    </head>
+
+    <body>
+        <header>
+            <div class=imageHeader></div>
+            <div class="arrondi">
+                <svg width="100%" height="100%" viewbox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill=" ##090909"></path>
+                </svg>
+            </div>
+            <div class=container>
+                <nav>
+                    <div class="logo">
+                        <h1 class="logoTitre"><a href="index.html">Hack'n'Shop</a></h1> 
+                    </div>
+
+
+                    <div class="menu">
+                        <a href="index.html" class=menuLien>Accueil</a>
+                        <a href="catalogue.html" class=menuLien>Services/Software</a>
+                        <a href="catalogue.html" class=menuLien>Objets</a>
+                        <a href="panier.html" class=menuLien>Panier</a>
+                        <form action="catalogue.html" method="POST">
+                            <label> <input type="text" placeholder="Recherche" name="Recherche" id="formulaire"></label>
+                            <input type="submit" value="Ok"> 
+                        </form>
+
+                    </div>
+
+
+                </nav>
+                <div class="slogan">
+                    <h1 class="sloganHeader">SERVICES ET OBJETS DE HACKING</h1>
+                </div>
+            </div>
+        </header>
+        
+
+        <main>
+        <div class=mainPanier>
+            <section class=sectionPanier1>
+                <h3>Récapitulatif du panier :</h3>
+                <div class=sectionVente>
+                    <p><a href="produit.html"><img src="images/reseaux.jpg" alt="Logo réseaux sociaux"/></a></p>
+                    <div class=reseaux2>
+                        <p><a href="produit.html">1 compte à pirater</a></p>
+
+                    </div>
+                    <form method="post" action="traitement.php">
+                        <p>
+                           
+                            <br />
+                            <br />
+                           
+                           <input type="button" value="Retirer du panier"/> 
+                           <br/>
+                           <br/>  
+                           <span class=promo>0,0015 BTC</span> 0,0010 BTC
+                        </p>
+                    </form>                    
+
+                </div>
+            </section>        
+            <section class=sectionPanier2>
+                <div class=sectionVente>
+                    <div class=rubber>
+                        <h3><a href="produit.html">Total panier</a></h3>
+                        <form>
+                            <p>
+                                Prix : 0,0015 BTC                               
+                                <br />
+                                <br />
+                                Promo : - 0,0005 BTC
+                                <br/>
+                                <br />
+                                Total : 0,0010 BTC
+                                <br/>
+                                <br/>
+                               
+                               <input type="button" value="Payer"/> 
+                               <br/>
+                               <br/>  
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+                
+            </section>
+        </div>
+        </main>
+        <footer>
+            <p class=lienFooter>
+                <a href="infos.html" class="lienFooter">Qui sommes-nous ?</a>
+                <a href="details.html" class="lienFooter">Details techniques</a>
+            </p>
+        </footer>
+        
+    </body>
+</html>
+
+
+             

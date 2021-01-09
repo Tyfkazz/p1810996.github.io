@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;300;700&display=swap" rel="stylesheet"> 
+        <title>Hack'n'Shop - Le hacking pour tous</title>
+    </head>
+
+    <body>
+        <header>
+            <div class=imageHeader></div>
+            <div class="arrondi">
+                <svg width="100%" height="100%" viewbox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill=" ##090909"></path>
+                </svg>
+            </div>
+            <div class=container>
+                <nav>
+                    <div class="logo">
+                        <h1 class="logoTitre"><a href="index.html">Hack'n'Shop</a></h1> 
+                    </div>
+
+
+                    <div class="menu">
+                        <a href="index.html" class=menuLien>Accueil</a>
+                        <a href="catalogue.html" class=menuLien>Services/Software</a>
+                        <a href="catalogue.html" class=menuLien>Objets</a>
+                        <a href="panier.html" class=menuLien>Panier</a>
+                        <form action="catalogue.html" method="POST">
+                            <label> <input type="text" placeholder="Recherche" name="Recherche" id="formulaire"></label>
+                            <input type="submit" value="Ok"> 
+                        </form>
+
+                    </div>
+
+
+                </nav>
+                <div class="slogan">
+                    <h1 class="sloganHeader">SERVICES ET OBJETS DE HACKING</h1>
+                </div>
+            </div>
+        </header>
+        
+
+        <main>
+           <section>
+                <h2>Details techniques</h2>
+                <div class=sectionInfos>
+                <p><img src="images/site.webp" alt="image code html"/></p>
+
+                    <div class=reseaux2>
+                        <p>Pour le Header j'ai décider d'utiliser une forme générée à l'aide de la balise SVG afin d'arrondir l'image de mon Header. Je me suis servi de diverses tutoriel et je trouve que le rendu est réussi. J'ai décidé d'utiliser des couleurs sombres ainsi que du blanc et du vert. Ce sont des couleurs qui évoquent le hacking en général.</p>
+                        <p>Lors de la validation j'ai eu un warning sur le titre du site, mais après quelques recherches j'ai vu qu'un warning n'était pas une erreur et que mon code restait valide, qu'il s'agissait juste d'un conseil.</p>
+                        <br/>
+                        <p>Par la suite pour la balise main qui représente le corps des pages, j'ai décidé d'utiliser les propriétés css de flexbox pour la disposition des "section" et des "div" car c'est ce qu'on a apprit en cours et que c'est assez intuitif !</p>
+                        <br/>
+                        <p>Pour le fond j'ai décidé d'utiliser un type "Matrix", cela permet d'immerger le client dans l'univers informatique.</p>
+                        <br/>
+                        <p>Enfin la majorité de mes images proviennent de ce site :<a href="https://unsplash.com">unsplash</a>
+                        <p>Elles sont libres de droit et il y en avait beaucoup sur le thème de la sécurité informatique</p> 
+                        <br/>
+                        <p>En terme d'amélioration j'aurai aimé avoir un meilleur alignement et pourquoi pas aussi ajouter quelques logo, je pense que ca serait un plus pour avoir un site vraiment complet</p>
+                        <br/>
+                    </div>
+                </div>
+            </section>      
+
+        </main>
+        <footer>
+            <p class=lienFooter>
+                <a href="infos.html" class="lienFooter">Qui sommes-nous ?</a>
+                <a href="details.html" class="lienFooter">Details techniques</a>
+            </p>
+        </footer>
+        
+    </body>
+</html>
+
+
+             
